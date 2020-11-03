@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/z"
+    tools:context=".Attraction">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="86dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="651dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <HorizontalScrollView
+        android:layout_width="423dp"
+        android:layout_height="658dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="410dp"
+                        android:layout_height="300dp"
+                        app:srcCompat="@drawable/picsart_08_03_09_52_07_1024x1024" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="410dp"
+                        android:layout_height="300dp"
+                        android:background="@color/common_google_signin_btn_text_dark_default"
+                        android:text="วัดท่าเหมือดแอ่ หมู่ที่ 2 ตำบลเจ้าท่า อำเภอกมลาไสย จังหวัด กาฬสินธุ์ สังกัดคณะสงฆ์มหานิกาย ตั้งเมื่อ พ.ศ. 2459 ได้รับ พระราชทานวิสุงคามสีมา เมื่อวันที่2 กันยายน พ.ศ. 2501 ทีดินมี เนื้อที่ 7 ไร่ 2 งาน 50 ตารางวา อาณาเขต ทิศเหนือ จดทุ่งนา ทิศ ใต้ จดหมู่บ้าน ทิศตะวันออก จดทุ่งนา ทิศตะวันตก จดถนน สาธารณะ มีอาคารเสนาสนะประกอบด้วย    1. อุโบสถ 1 หลัง 2. ศาลาการเปรียญ 1 หลัง 3. กุฏิสงฆ์ 1 หลัง 4. ห้องเรียน 1 หลัง และพระอุโบสถ ที่ดูเก่าแก่และขลังไปด้วยพลังน่าเลื่อมใส เป็น อุโบสถที่ดูมีการบูรณะน้อยที่สุดแล้วจึงดูมีความเก่าแก่เหมาะแก่การ ถ่ายรูปฟิลอาร์ตๆ ถ่ายวิวก็ดูดี"
+                        android:textSize="18sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" />
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_08_37_23_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text=" ปู่ฟ้าระงึมถือเป็นสิ่งศักดิ์สิทธิ์ประจำท้องถิ่นของตำบลเจ้าท่า เป็นที่พึ่งทางใจของคนในชุมชนเวลาไม่สบายใจหรือมีเรื่องร้อนใจทุก คนก็จะไปไหว้ขอพรต่อปู่ฟ้าระงึมเพื่อบรรเทาทุกข์ลงได้ เปรียบเสมือนเป็นที่ยึดเหนี่ยวจิตใจของทุกคนที่เป็นลูกหลานที่นั่น สมัยก่อนแทบทุกหมู่บ้านในภาคอีสานจะมี “ดอนปู่ตา” ซึ่งถือเป็น สถานที่ศักดิ์สิทธิ์ในชุมชน โดยมีความเชื่อว่าดอนปู่ตาเป็นที่อยู่อาศัย ของผีบรรพบุรุษของหมู่บ้าน ปู่ตา หมายถึง วิญญาณของบรรพบุรุษที่ล่วงลับไปแล้ว ปู่เป็นวิญาณทางพ่อ ตา เป็นวิญญาณทางแม่ [2]คนในชุมชน จึงปลูก ตูบ หรือ หอ ให้ผีปู่ตาอาศัยซึ่งอาจจะมีรูปปั้นแทนหรือไม่มีก็ได้ โดยถือว่าเป็นเขตพื้นที่ศักดิ์สิทธิ์ ผู้ใดจะรุกล้ าหรือ ตัดต้นไม้แสดงวาจาหยาบคาย ไม่ได้ ดังนั้น ดอนปู่ตา จึงเป็นกลายเป็นป่าขนาดเล็กๆและเป็นพื้นที่ป่าสงวนของคนในชุมชนไปในตัว ความเชื่อคนอีสานมีความเชื่อเรื่องผีปู่ตามานานแล้วถือว่าเป็นวิญญาณของบรรพบุรุษผู้ก่อตั้งหมู่บ้าน ความเชื่อดังกล่าวได้หยั่งลึกลงไปจิตสำนึกของลูกหลานในชุมชน และถือปฏิบัติติดต่ออย่างเคร่งครัดตลอดมา ผีปู่ตาเป็นผู้รักษาหมู่บ้านให้ชาวบ้านอยู่เย็นเป็นสุข อีกทั้งยังมีการบ๋าหรือขอพรในกรณีต่างๆ ของคนในหมู่บ้าน" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/img20200719101723_scaled" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="กลุ่มทำขนมจีน  กลุ่มนี้เป็นกลุ่มที่ทาขนมจีน ซึ่งเป็นเอกลักษณ์เฉพาะหมู่บ้านโดยทา เป็นเส้นสด จะมีความเหนียวนุ่มและรสชาติก็จะอร่อยสดสะอาด แต่จะสามารถเก็บไว้ได้ไม่นานเพราะไม่ได้ใส่สารกันบูดเพราะกลัว ว่าเส้นจะไม่เหนียวนุ่มไม่คงความอร่อยเท่าเดิม มีการเกรดแป้งที่จะ เอามาท าเป็นขนมจีนอย่างดีกลุ่มนี้เป็นกลุ่มที่ทำด้วยความใจรักรัก ไม่ได้เพื่อที่จะได้รายเยอะ อยากให้ทุกคนได้ลองทานเพราะกลุ่ม ออกมาได้เหมือนที่แม่อยากทากับข้าวให้ลูกได้ทานแบบอร่อยอิ่มอก อิ่มใจ " />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_08_42_23_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text=" เป็นป่าไม้ของชุมชนที่มีการอนุรักษ์ และอยู่บริเวณอาณาเขต ของวัดประชานิยม(หนองคอนสวรรค์) ซึ่งภายในวัดก็จะมีป่า ปกคลุมเป็นส่วนใหญ่ให้บรรยากาศสงบและร่มรื่นมากเหมาะ แก่มานั่งปฏิบัติธรรม ในป่า เป็นป่าดิบชื่นเย็นสงบร่มรื่น มีของ ป่ามากมาย โดยเฉพาะเห็ด ความอุดมสมบูรณ์ของป่าก็ถือได้ เป็นป่าที่ค่อนข้างสมบรูณ์โดยมีการอนุรักษ์ของชาวป่าที่ ต้องการรักษาป่าแห่งนี้ และรักษาวงเวียนระบบนิเวศเป็นอย่าง ดี หากจะเดินป่าต้องไปกับพรานหรือผู้รู้ทางเพราะเป็นป่า ค่อนข้างขนาดใหญ่มากจะหลงป่าเอาได้ง่ายๆw" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/__2" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="กลุ่มทอเสื่อกก       กลุ่มนี้เป็นกลุ่มที่รักการสืบสานการทอเสื่อที่นำเอาผลผลิตที่มีใน ท้องถิ่นมาใช้สอยให้เกิดประโยชน์สูงสุด โดยเป็นเสื่อทอมือทั้งหมด และ นำมาทำเป็นลวดลายต่างๆที่ทันสมัยเกิดเป็นไอเดียใหม่ น่าสนใจอีกมากมาย จะเป็นฝีมือส่วนใหญ่ที่ต้องใช้ความปราณีต มากๆ มีการทอเสื่อที่เป็นคำขวัญของจังหวัด มีการสานเป็นหมวก มี กระเป๋าที่ตกแต่งแบบทันสมัยเป็นทุนนิยม และสินค้าที่น่าสนใจอีก มากมาย " />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_08_59_44_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:text="ปู่หิน ประดิษฐานภายในพระอุโบสถ ของ วัดปทุมเกษรหนองบัว เป็นวัดราษฎร์ สังกัดคณะสงฆ์ฝ่ายมหานิกาย ตั้งอยู่ที่ ตำบลเจ้าท่า อำเภอกมลาไสย จังหวัดกาฬสินธุ์มีชื่อเรียกอีกอย่าง พระพุทธศิลา ปทุมมานสรณ์เดชขอรเกริกก้องไกลมารวิชัยภัยวินาศ มานมัสการ เพื่อเป็นสิริมงคลแก่ตัวท่านเอง และ บริเวณรอบพระอุโบสถจะมี สัตว์หิมพานต์รายล้อมบริเวณอุโบสถ ทำให้อุโบสถดูโดดเด่น ตระการตาและต้องแต่งแบบร่วมสมัยดูวิจิตรงดงามน่าเลื่อมใส" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_10_10_58_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="กลุ่มออมทรัพย์เพื่อการผลิตนี้เป็น 1 ใน 8 แหล่งของประเทศไทยโดยภาคอีสานจะมีแค่2 กลุ่ม ที่ กาฬสินธุ์ บ้านโจด แห่งนี้ กับ ที่ชัยภูมิ กลุ่มนี้มีความส าคัญอย่างไรกับชุมชนบ้างคือ สามารถที่เป็นเงินทุนกู้ยืมและเอาไปเป็นทุนในการลงทุนต่อยอด แถมกลุ่มนี้ช่วยสอนให้เด็กเล็กในชุมชนรู้จักการออม กลุ่มนี้จะช่วยให้ความรู้เรื่องการลงทุนวางแผนการบัญชี เพื่อให้สอดคล้องกับการผลิตเป็นแหล่งเรียนรู้ของคนในชุมชน" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_08_51_19_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="วัดท่ากลาง วัดท่ากลาง หรือ เดิมเรียกอีกชื่อว่า เสลานิมิต ในบริเวณวัดเดิมทีเป็นป่า ช้าของคนโบราณพบหม้อกระดูกมนุษย์จ านวนมาก ตรงกลางบริเวณมี ต้นมะขามเตี้ยใหญ่ต้นหนึ่งวัดรอบต้นได้ถึง 9เมตร ก่อน พ.ศ. 1825 องค์ หลวงปู่เจ้าท่าได้มาประดิษฐานบริเวณวัด ในวันที่ 9 พฤษภาคม 2534 ได้รับพระราชทานวิสงคามสีมาเป็นวัดที่ถูกต้องตามกฎหมาย จึงชื่อวัดว่า วัดท่ากลาง ภายในวัดมี องค์หลวงปู่เจ้าท่าประดิษฐานอยู่ หลวงปู่เจ้าท่า หลวงปู่เจ้าท่าเป็นวัตถุโบราณยุคสมัยทวารวดี มีอายุราวๆ 2,000 ปีก่อนที่จะมาประดิษฐานที่วัด ท่านได้ประดิษฐานที่ล าน้ าชีด้าน ทิศตะวันตกของวัด เดิมทีเรียกว่า หินลอยน้ า ลักษณะของหลวงปู่เจ้าท่า ท าด้วยศิลาทราย รูปลักษณะเป็นใบพุทธสีมา ความยาว 180 ซม. กว้าง 80 ซม. ตรงกลางเป็นรูปพระพุทธรูปปางขัดสมาธิฝั่งซ้ายนั้นคือ พระโมค คัลลานะ และฝั่งขวาคือ พระสารีบุตร และ รอบองหลวงปู่เจ้าท่า มีคาถา ที่เป็นอักษรขอมสลักไว้อยู่ โดยมีใจความบูชาเพื่อเป็นสิริมงคลว่าด้วย" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_09_59_52_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="  เริ่มต้นทำการล่องแพเมื่อปี59 มีเรือนแพ1หลัง ล่องไปตามลำน้ำชีชมทัศนียภาพของลุ่มแม่น้ำชี แพได้รับการตรวจสอบตามมาตรฐานและคนดูแลแพได้รับการอบรมผ่าเกณฑ์การฝึก ความปลอดภัยจะมีให้นักท่องเที่ยวใส่ชูชีพ ช่วงล่องในระยะเวลาที่น้ าชีนิ่งหรือไหลในระยะที่ระดับน้ าไม่เชี่ยวมากเพราะเกิดอันตราย เรือนแพ สามรถรับ บรรจุคนได้ถึง50 คน และ มีสิ่งอ านวยความสะดวกเช่น ห้องน้ าที่สารถถ่ายเบาได้ และมีอุปกรณ์เครื่องเสียง ระยะทางและเวลาในการล่องแพก็จะปรับเปลี่ยนตามรูปแบบของทริปเดินทางเพื่อไม่น่าเบื่อจนเกินไป และชมวิถีชีวิตผู้คนที่ดำเนินชีวิตกับน้ำ ชมธรรมชาติท่ามกลางสายน้ำที่ไหลผ่านให้ลมพัดผ่านเย็นกายสบายใจกับการล่องแพ" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="600dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            app:srcCompat="@drawable/picsart_08_03_09_38_00_1024x1024" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="410dp"
+                            android:layout_height="300dp"
+                            android:background="@color/common_google_signin_btn_text_dark_default"
+                            android:text="มีสมาชิกทั้งหมด 79 คน ก่อตั้งขึ้นปีพ.ศ.2546 ภายในกลุ่มนี้ ทำสินค้าด้วยมือหรืองานฝีมือ เช่น เสื้อพื้นเมือง ผ้าถุง ผ้าสีพื้น หมอนที่ท าจากเสื่อกกเพื่อสุขภาพ หมอนสมุนไพร เพื่อเพิ่มรายได้เข้าหมู่บ้านลดเวลาว่างเพื่อเป็นประโยชน์แก่ชุมชน แลกลุ่มแม่บ้านนี้ยังมีรายได้เสริม " />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
